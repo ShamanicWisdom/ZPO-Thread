@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="750.0" maxWidth="700.0" minHeight="161.0" minWidth="700.0" prefHeight="750.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Label layoutX="312.0" layoutY="14.0" prefHeight="35.0" prefWidth="77.0" text="Wątki ">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="89.0" text="Litera po literze" />
+      <Label layoutX="431.0" layoutY="89.0" text="Treść po treści" />
+      <Label layoutX="319.0" layoutY="89.0" text="Linia po linii" />
+      <Label layoutX="138.0" layoutY="49.0" text="Praca domowa z wątkowaniem - wybierz jeden z czterech wariantów.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="button1" layoutX="88.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleAction1" prefHeight="25.0" prefWidth="52.0" text="GO!" AnchorPane.leftAnchor="88.0" />
+      <Button fx:id="button2" layoutX="208.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleAction2" prefHeight="25.0" prefWidth="52.0" text="GO!" AnchorPane.leftAnchor="205.0" />
+      <Button fx:id="button3" layoutX="325.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleAction3" text="GO!" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="323.0" />
+      <Button fx:id="button4" layoutX="613.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleAction4" prefHeight="25.0" prefWidth="52.0" text="GO!" AnchorPane.rightAnchor="205.0" />
+      <Label layoutX="188.0" layoutY="89.0" text="Słowo po słowie" />
+      <Button fx:id="exit" layoutX="602.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="25.0" prefWidth="52.0" text="GO!" AnchorPane.rightAnchor="88.0" />
+      <Label layoutX="564.0" layoutY="89.0" text="Zakończ" />
+      <TextArea fx:id="comboPit" editable="false" layoutX="39.0" layoutY="502.0" prefHeight="200.0" prefWidth="636.0" wrapText="true" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <TextArea fx:id="threadArea1" editable="false" layoutX="50.0" layoutY="188.0" prefHeight="300.0" prefWidth="200.0" wrapText="true" AnchorPane.leftAnchor="50.0" />
+      <TextArea fx:id="threadArea2" editable="false" layoutX="251.0" layoutY="188.0" prefHeight="300.0" prefWidth="200.0" wrapText="true" />
+      <TextArea fx:id="threadArea3" editable="false" layoutX="451.0" layoutY="188.0" prefHeight="300.0" prefWidth="200.0" wrapText="true" AnchorPane.rightAnchor="49.0" />
+      <Label layoutX="109.0" layoutY="160.0" text="Zawartość Pliku 1" />
+      <Label layoutX="305.0" layoutY="160.0" text="Zawartość Pliku 2" />
+      <Label layoutX="505.0" layoutY="160.0" text="Zawartość Pliku 3" />
+   </children>
+</AnchorPane>
