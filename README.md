@@ -4,7 +4,8 @@
 
 ## (PL) Opis:
 Program ma za zadanie (wykorzystując trzy wątki) stworzyć plik tekstowy zawierający zawartość trzech plików źródłowych w różnych kombinacjach.
-Kombinacje:
+
+## Kombinacje:
 - naprzemienne wstawianie pojedynczych znaków z każdego pliku,
 - naprzemienne wstawianie pojedynczych wyrazów z każdego pliku,
 - naprzemienne wstawianie pojedynczych linii z każdego pliku,
@@ -18,7 +19,8 @@ Zawartość plików źródłowych to opis serialu animowanego Ghost In the Shell
 
 ## (ENG) Description:
 The goal of this program is to create a text file what will contain the content of three source files in various combinations (using threads).
-Combinations: 
+
+## Combinations: 
 - one char from each of source files by turns,
 - one word from each of source files by turns,
 - one line from each of source files by turns,
